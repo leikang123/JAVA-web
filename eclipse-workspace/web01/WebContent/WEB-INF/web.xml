@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+id="WebApp_ID" version="4.0">
+
+
+  
+  <!-- 
+  <servlet>
+  <servlet-name>TestServlet06</servlet-name>
+  <servlet-class>com.lk.TestServlet06</servlet-class>
+  <init-param>
+  <param-name>encoding</param-name>
+  <param-value>UTF-8</param-value>
+  </init-param>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>TestServlet06</servlet-name>
+  <url-pattern>/</url-pattern>
+  </servlet-mapping> -->
+  
+  
+  <!-- 配置web.xml的文件 -->
+  <servlet>
+  <servlet-name>ListBookServlet</servlet-name>
+  <servlet-class>com.lk2.ListBookServlet</servlet-class>
+  <init-param>
+  <param-name>encoding</param-name>
+  <param-value>UTF-8</param-value>
+  </init-param>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ListBookServlet</servlet-name>
+  <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>
