@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.jasper.tagplugins.jstl.core.Param;
-
+// web 的继承HTTP
 public class TestServlet02 extends HttpServlet{
 	protected void doGet(HttpServletRequest request,HttpServletResponse response)
 		throws ServletException,IOException	{
